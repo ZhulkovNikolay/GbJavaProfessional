@@ -4,12 +4,9 @@ import java.io.IOException;
 
 public class FileReadTask {
 
-
-    private String fileLocation;
     private File file;
 
     public FileReadTask(String fileLocation) {
-        this.fileLocation = fileLocation;
         file = new File(fileLocation);
     }
 
