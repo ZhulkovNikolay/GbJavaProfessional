@@ -29,5 +29,10 @@ public class StartApp {
             System.out.println(o);
         }
 
+
+        CheckArrayContainer checkArrayContainer = new CheckArrayContainer();
+        System.out.println(checkArrayContainer.checkIfArrayContains(userInput));
+
+
     }
 }
